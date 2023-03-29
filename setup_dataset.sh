@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-[ ! -d "dataset/" ] || mkdir dataset
+mkdir -p dataset
 cd dataset
 
 echo "Downloading ISIC 2020 dataset..."
